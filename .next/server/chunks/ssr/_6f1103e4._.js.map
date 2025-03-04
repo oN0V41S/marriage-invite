@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/runner/workspace/src/app/layout.tsx"],"sourcesContent":["export default function DashboardLayout({ children }: { children: React.ReactNode }) {\n  return (\n    <html lang=\"pt-br\" className=\"trancy-pt antianalised\">\n      <body>\n        <main>{children}</main>\n      </body>\n    </html>\n  )\n}"],"names":[],"mappings":";;;;;AAAe,SAAS,gBAAgB,EAAE,QAAQ,EAAiC;IACjF,qBACE,8OAAC;QAAK,MAAK;QAAQ,WAAU;kBAC3B,cAAA,8OAAC;sBACC,cAAA,8OAAC;0BAAM;;;;;;;;;;;;;;;;AAIf","debugId":null}},
+    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///home/runner/workspace/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,4HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0],"debugId":null}},
+    {"offset": {"line": 42, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
