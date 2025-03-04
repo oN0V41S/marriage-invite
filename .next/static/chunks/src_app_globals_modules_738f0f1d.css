@@ -1,10 +1,12 @@
-
+/* [project]/src/app/globals.modules.css [app-client] (css) */
 @tailwind base;
+
 @tailwind components;
+
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #fff;
   --foreground: #171717;
 }
 
@@ -15,7 +17,15 @@
   }
 }
 
-body {
+.body {
+  width: 100%;
   color: var(--foreground);
   background: var(--background);
 }
+
+.main {
+  width: 100%;
+}
+
+
+/*# sourceMappingURL=src_app_globals_modules_738f0f1d.css.map*/
