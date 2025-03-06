@@ -1,16 +1,32 @@
-import styles from "./globals.modules.css"
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.module.scss";
 
-export default function DashboardLayout({ children }: { children: React.ReactNode }) {
-  return (  
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "Clarice & Ailton",
+  description: "Você está convidado para prestigiar o nosso casamento!!",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
     <html lang="pt-br">
-      <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Clarice && Adilson</title>
-      </head>
-      <body>
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
     </html>
-  )
+  );
 }

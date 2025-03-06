@@ -1,10 +1,14 @@
-import styles from "../styles/home.module.css";
+import "../styles/home.scss";
+// import Link from "next/link";
+// import Image from 'next/image';
+// import Letter from "../../public/images/letter.png"
 
 export default function Home() {
   return (
-    <div className={styles.content}>
-      <h1 className="text-4xl font-bold text-blue-600">Hello Kelly!</h1>
-      <p className="mt-4 text-gray-600">Welcome to your Next.js app with Tailwind CSS</p>
+    <div className="content">
+      {/* <Link href={"/adminstration"}>
+        <Image src={Letter} alt="Envelope" width={120} height={120}/>  
+      </Link> */}
     </div>
   );
 }

@@ -1,1 +1,36 @@
-globalThis.__BUILD_MANIFEST={"pages":{"/_app":["static/chunks/[root of the server]__63416926._.js","static/chunks/node_modules_react-dom_82bb97c6._.js","static/chunks/node_modules_beb00741._.js","static/chunks/[root of the server]__f5f356b3._.js","static/chunks/src_pages__app_5771e187._.js","static/chunks/src_pages__app_c8b84f9a._.js"],"/_error":["static/chunks/[root of the server]__1a2556b0._.js","static/chunks/node_modules_react-dom_82bb97c6._.js","static/chunks/node_modules_beb00741._.js","static/chunks/[root of the server]__ca38f087._.js","static/chunks/src_pages__error_5771e187._.js","static/chunks/src_pages__error_94edfbef._.js"]},"devFiles":[],"ampDevFiles":[],"polyfillFiles":["static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js"],"lowPriorityFiles":["static/development/_ssgManifest.js","static/development/_buildManifest.js"],"rootMainFiles":["static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_275e8479._.js","static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc06._.js","static/chunks/node_modules_next_dist_compiled_38d265cf._.js","static/chunks/node_modules_next_dist_client_ce20a02f._.js","static/chunks/node_modules_next_dist_734f0429._.js","static/chunks/node_modules_@swc_helpers_cjs_00636ac3._.js","static/chunks/_e69f0d32._.js","static/chunks/_fc096475._.js"],"ampFirstPages":[]};
+globalThis.__BUILD_MANIFEST = {
+  "polyfillFiles": [
+    "static/chunks/polyfills.js"
+  ],
+  "devFiles": [
+    "static/chunks/fallback/react-refresh.js"
+  ],
+  "ampDevFiles": [
+    "static/chunks/fallback/webpack.js",
+    "static/chunks/fallback/amp.js"
+  ],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [
+    "static/chunks/fallback/webpack.js",
+    "static/chunks/fallback/main-app.js"
+  ],
+  "rootMainFilesTree": {},
+  "pages": {
+    "/_app": [
+      "static/chunks/fallback/webpack.js",
+      "static/chunks/fallback/main.js",
+      "static/chunks/fallback/pages/_app.js"
+    ],
+    "/_error": [
+      "static/chunks/fallback/webpack.js",
+      "static/chunks/fallback/main.js",
+      "static/chunks/fallback/pages/_error.js"
+    ]
+  },
+  "ampFirstPages": []
+};
+globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
+"/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",
+,"/static/" + process.env.__NEXT_BUILD_ID + "/_ssgManifest.js",
+
+];
