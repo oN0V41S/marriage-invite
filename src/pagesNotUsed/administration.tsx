@@ -1,5 +1,5 @@
-export default function Adminstration () {
-    return (
-        <h1>Salve da Jaca</h1>
-    )
-}
+// export default function Adminstration () {
+//     return (
+//         <h1>Salve da Jaca</h1>
+//     )
+// }
