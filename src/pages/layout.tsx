@@ -1,6 +1,5 @@
 import styles from "@styles/globals.module.scss";
 
-
 export default function RootLayout({
   children,
 }: Readonly<{

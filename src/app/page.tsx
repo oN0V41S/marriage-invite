@@ -1,7 +1,7 @@
 import styles from "@styles/home.module.scss";
 import Link from "next/link";
 import Image from 'next/image';
-import Letter from "@public/letter.jpg"
+import Letter from "@public/invites/letter.jpg"
 
 export default function Home() {
   return (

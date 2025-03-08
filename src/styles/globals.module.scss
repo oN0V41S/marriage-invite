@@ -21,6 +21,8 @@
 
 .body {
   width: 100%;
+  padding: 0;
+  margin: 0;
   height: auto;
   overflow-x: hidden;
   color: var(--foreground);
@@ -28,8 +30,6 @@
   font-family: 'RaleWay', Arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 0;
-  margin: 0;
   display: flex;
   flex-direction: column;
 }

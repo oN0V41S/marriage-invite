@@ -23,10 +23,10 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/confirmPresence": [
+    "/invite": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/confirmPresence.js"
+      "static/chunks/pages/invite.js"
     ]
   },
   "ampFirstPages": []

@@ -1,17 +1,62 @@
-#_next {
+.inviteContent {
     width: 100%;
-    height: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+
+    .defaultButton {
+        padding: 1vh 4vw;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: box-shadow 0.3s ease;
+        color: white;
+        margin: 0 auto;
+        display: flex;
+        gap: 2vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &:hover {
+            box-shadow: 0px 0px 10px 20px grey;
+        }
+    }
+
+    .darkButton {
+        margin: 0 auto;
+        background-color: rgb(44, 44, 44);
+    }
+
+    .confirmButton {
+        margin: 0 auto;
+        background-color: #4caf50;
+    }
 }
 
-.img{
+.img {
     width: 100%;
     height: auto;
 }
 
 .confirmPresenceButton {
+    width: 75%;
     padding: 2vh 4vw;
     margin: 0 auto;
-    border-radius: 25%;
+    margin-top: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
     color: white;
     background-color: #7937b6;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: sans-serif, Arial;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+    }
 }
