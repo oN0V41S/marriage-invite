@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import styles from "@/styles/globals.module.scss";
+import styles from "@styles/globals.module.scss";
 
 export const metadata: Metadata = {
   title: "Clarice & Ailton",
