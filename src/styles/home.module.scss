@@ -24,16 +24,12 @@
 
   img{
     margin-top: 7vh;
-    width: 175px;
-    height: 175px;
+    width: 275px;
+    height: auto;
+    justify-content: center;
+    justify-self: center;
   }
 }
-
-.image{
-  justify-content: center;
-  justify-self: center;
-}
-
 
 .h1{
   width: 65%;
@@ -41,8 +37,4 @@
   font-size: x-large;
   font-weight: 600;
   font-family: GreatVibes, Arial;
-}
-
-.img{
-  width: max-content;
 }
