@@ -5,14 +5,13 @@ import { useState } from "react";
 
 interface People {
     name: string;
-    email: string;
   }
 
 export default function ConfirmPresence() {
-    const [peoples, setPeoples] = useState<People[]>([{ name: '', email: '' }]);
+    const [peoples, setPeoples] = useState<People[]>([{ name: ''}]);
 
     const addPeople = () => {
-        setPeoples([...peoples, { name: '', email: '' }]);
+      setPeoples([...peoples, { name: ''}]);
     };
   
     const removerPessoa = (index: number) => {
@@ -43,20 +42,17 @@ export default function ConfirmPresence() {
       }
     };
   
+    const consoleSubmit = (item: any) => {
+      return console.log(item)
+    }
+
     return (
-      <form action={handleSubmit} className={styles.formContainer}>
+      <form action={consoleSubmit} className={styles.formContainer}>
         {peoples.map((peoples, index) => (
           <div key={index} className={styles.pessoaContainer}>
             <input
               name={`nome-${index}`}
               placeholder="Nome completo"
-              required
-              className={styles.inputField}
-            />
-            <input
-              name={`email-${index}`}
-              type="email"
-              placeholder="E-mail"
               required
               className={styles.inputField}
             />
