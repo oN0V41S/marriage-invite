@@ -1,7 +1,7 @@
 'use client';
 
-import styles from "@/styles/confirmPresence.module.scss"
-import { useEffect, useState } from "react";
+import styles from "@styles/confirmPresence.module.scss"
+import { useState } from "react";
 
 interface People {
     name: string;

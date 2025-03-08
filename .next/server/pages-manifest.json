@@ -1,6 +1,10 @@
 {
   "/_app": "pages/_app.js",
+  "/administration": "pages/administration.html",
   "/_error": "pages/_error.js",
+  "/invite": "pages/invite.html",
+  "/layout": "pages/layout.html",
+  "/confirmPresence": "pages/confirmPresence.html",
   "/_document": "pages/_document.js",
-  "/invite": "pages/invite.js"
+  "/404": "pages/404.html"
 }

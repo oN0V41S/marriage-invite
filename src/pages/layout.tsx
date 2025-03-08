@@ -1,10 +1,5 @@
-import type { Metadata } from "next";
 import styles from "@styles/globals.module.scss";
 
-const metadata: Metadata = {
-  title: "Clarice & Ailton",
-  description: "Você está convidado para prestigiar o nosso casamento!!",
-};
 
 export default function RootLayout({
   children,
