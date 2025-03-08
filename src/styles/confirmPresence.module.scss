@@ -1,0 +1,69 @@
+.formContainer {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  
+    .pessoaContainer {
+      display: grid;
+      grid-template-columns: 1fr 1fr auto;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      align-items: center;
+    }
+  
+    .inputField {
+      padding: 0.8rem;
+      border: 1px solid #ced4da;
+      border-radius: 4px;
+      font-size: 1rem;
+  
+      &:focus {
+        outline: 2px solid #90caf9;
+        border-color: #42a5f5;
+      }
+    }
+  
+    .buttonGroup {
+      display: flex;
+      gap: 1rem;
+      justify-content: flex-end;
+    }
+  
+    .addButton, .submitButton, .removeButton {
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+  
+    .addButton {
+      background: #4caf50;
+      color: white;
+  
+      &:hover {
+        background: #43a047;
+      }
+    }
+  
+    .submitButton {
+      background: #2196f3;
+      color: white;
+  
+      &:hover {
+        background: #1976d2;
+      }
+    }
+  
+    .removeButton {
+      background: #ef5350;
+      color: white;
+  
+      &:hover {
+        background: #d32f2f;
+      }
+    }
+  }

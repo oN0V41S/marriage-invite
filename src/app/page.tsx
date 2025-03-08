@@ -6,8 +6,7 @@ import Letter from "../../public/letter.jpg"
 export default function Home() {
   return (
     <div className={styles.content}>
-      <h1 className={styles.h1}>Clarice & Ailton</h1>
-      <p className={styles.p}>Convidamos você para prestigiar nosso casamento clique no envelope a baixo para ver o convite e confirmar sua presença!!</p>
+      <h1 className={styles.h1}>Clique no Envelope Abaixo!!</h1>
       <Link href={"/invite"} className={styles.link}>
         <Image src={Letter} alt="Envelope" className={styles.img}/>  
       </Link>
