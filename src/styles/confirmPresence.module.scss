@@ -1,24 +1,20 @@
-.formContainer {
+.inviteConfirmationContent {
     max-width: 800px;
     margin: 2rem auto;
-    padding: 2rem;
     background: #f8f9fa;
     border-radius: 8px;
     box-shadow: 0 2px 15px rgba(0,0,0,0.1);
-  
-    .pessoaContainer {
-      display: grid;
-      grid-template-columns: 1fr 1fr auto;
-      gap: 1rem;
-      margin-bottom: 1.5rem;
-      align-items: center;
-    }
+    display: flex;
+    flex-direction: column;
+    
   
     .inputField {
+      width: 100%;
       padding: 0.8rem;
       border: 1px solid #ced4da;
-      border-radius: 4px;
+      border-radius: 5%;
       font-size: 1rem;
+
   
       &:focus {
         outline: 2px solid #90caf9;
@@ -26,44 +22,35 @@
       }
     }
   
-    .buttonGroup {
+    .footerButtonGroup{
+      width: 100%;
       display: flex;
-      gap: 1rem;
-      justify-content: flex-end;
+      flex-direction: column;
+      justify-content: center;
     }
-  
-    .addButton, .submitButton, .removeButton {
-      padding: 0.8rem 1.5rem;
+
+    .defaultButton{
+      padding: 2vh 10vw;
       border: none;
       border-radius: 4px;
       cursor: pointer;
-      transition: all 0.3s ease;
-    }
-  
-    .addButton {
-      background: #4caf50;
+      transition: box-shadow 0.3s ease;
       color: white;
+      margin: 0 auto;
   
       &:hover {
-        background: #43a047;
+        box-shadow: 0px 0px 10px 20px grey;
       }
     }
-  
-    .submitButton {
-      background: #2196f3;
-      color: white;
-  
-      &:hover {
-        background: #1976d2;
-      }
+
+    .darkButton {
+      margin: 0 auto;
+      background-color: rgb(44, 44, 44);
     }
-  
-    .removeButton {
-      background: #ef5350;
-      color: white;
-  
-      &:hover {
-        background: #d32f2f;
-      }
+    
+    .confirmButton {
+      margin: 0 auto;
+      background-color: #4caf50;
     }
+
   }
