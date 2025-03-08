@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import styles from "@/app/globals.module.scss";
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: "Clarice & Ailton",
   description: "Você está convidado para prestigiar o nosso casamento!!",
 };
