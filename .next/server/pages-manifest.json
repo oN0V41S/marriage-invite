@@ -3,8 +3,8 @@
   "/administration": "pages/administration.html",
   "/_error": "pages/_error.js",
   "/invite": "pages/invite.html",
-  "/layout": "pages/layout.html",
   "/confirmPresence": "pages/confirmPresence.html",
+  "/layout": "pages/layout.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }
