@@ -25,20 +25,9 @@ export default function ConfirmPresence() {
   };
 
   function sendToWhatsApp() {
-    if (peoples.length === 0) {
-      alert('Adicione pelo menos um convidado!');
-      return;
-    }
-
-    const message = `Gostaria de Confirmar minha Presença e da minha família.\n 📋 Lista de Convidados:\n`;
-    const [restData,setRestData] = useState("");
-    const dataString = peoples.map((item)=>{setRestData(`${item.name}\n`)})
-    console.log(dataString)
-    const completedMessage = message + dataString;
-
-    const phoneNumber = '5511957637068';
-    const encodedMessage = encodeURIComponent(completedMessage);
-
+    const message = `Olá casal!!, Gostaria de Confirmar minha Presença e da minha família.`;
+    const phoneNumber = '5511957317836';
+    const encodedMessage = encodeURIComponent(message);
     window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank');
   }
 
@@ -69,8 +58,8 @@ export default function ConfirmPresence() {
   );
 }
 
-const Table = (children: any) => { return <table className={styles.table}>{children}</table>}
-const TableHeader = (children: any) => { return <thead className={styles.tableHeader}>{children}</thead> }
-const TableBody = (children: any) => { return <tbody className={styles.tableBody}>{children}</tbody> }
-const TableLine = ({children, dataKey}: {children?: React.ReactNode, dataKey?: any}) => { return <tr key={dataKey} className={styles.tableLine}>{children}</tr> }
-const TableData = (children: any) => { return <td className={styles.tableData}>{children}</td> }
+// const Table = (children: any) => { return <table className={styles.table}>{children}</table>}
+// const TableHeader = (children: any) => { return <thead className={styles.tableHeader}>{children}</thead> }
+// const TableBody = (children: any) => { return <tbody className={styles.tableBody}>{children}</tbody> }
+// const TableLine = ({children, dataKey}: {children?: React.ReactNode, dataKey?: any}) => { return <tr key={dataKey} className={styles.tableLine}>{children}</tr> }
+// const TableData = (children: any) => { return <td className={styles.tableData}>{children}</td> }
